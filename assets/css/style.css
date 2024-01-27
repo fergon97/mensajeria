@@ -1,0 +1,115 @@
+/*Body*/
+body {
+  background-color: white;
+  color: #1b1f21;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold 700;
+  font-style: normal;
+  overflow: hidden;
+}
+
+/*Contenedor general*/
+.general {
+  display: flex;
+  flex: 100%;
+}
+
+/*Contenedor col-de*/
+.col-de {
+  background-color: #e8ebe4;
+  display: flex;
+  flex: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Imagen Networking*/
+.col-de img {
+  height: 300px;
+}
+
+/*Párrafo col-de*/
+.col-de p {
+  height: 50px;
+  width: 450px;
+  text-align: center;
+  margin: 10px;
+}
+
+/*Conetendor de contactos*/
+.col-iz {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  flex: 20%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/*Imagen de contacto*/
+.imgcontacto {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.yo,
+.boton {
+  border: 1px solid #bec1bb;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.texto-yo,
+.texto2 {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.texto-yo h2,
+.texto2 h2 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.texto-yo p {
+  margin: 0;
+  font-size: 10px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  align-self: center;
+}
+
+.chat {
+  border: 1px solid #bec1bb;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nuevo-chat {
+  background-color: #a491d2;
+  color: white;
+  font-size: 16px;
+  white-space: nowrap;
+  padding: 20px 80px;
+  border: none;
+}
+
+.boton .imgcontacto {
+  width: 60px;
+  height: 60px;
+}
